@@ -19,6 +19,7 @@ services:
       - DB_NAME=django
       - DB_USER=joshy
       - DB_PASS=rrryyy123
+      - DB_PORT=5432
     depends_on:
       - db 
   
